@@ -69,21 +69,21 @@ body {
   background-color: #f4d04e;
   border-radius: 4px;
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: clamp(12px, 2.5vw, 14px);
   font-weight: 800;
 }
 
 .publish-date {
-  font-size: 12px;
+  font-size: clamp(12px, 2.5vw, 14px);
 }
 
 .title {
-  font-size: 20px;
+  font-size: clamp(20px, 4.2vw, 24px);
   font-weight: 800;
 }
 
 .description {
-  font-size: 14px;
+  font-size: clamp(14px, 2.9vw, 16px);
   color: hsl(0, 0%, 42%);
 }
 
